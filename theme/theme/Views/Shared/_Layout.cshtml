@@ -1,0 +1,58 @@
+﻿
+<html>
+<head>
+    <title>Real Estate</title>
+    <link rel="stylesheet" href="signup.css">
+</head>
+<body>
+
+    <!--==============================Header=================================-->
+
+    <header>
+        <h1>Real Estate</h1>
+        <nav>
+            <ul>
+                <li><a class="style" href="index.html">Home &nbsp;</a></li>
+                <li><a class="style" href="#">Buying &nbsp;</a></li>
+                <li><a class="style" href="#">Selling &nbsp;</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <div class="divider"></div>
+    <div class="image">
+
+        <!--==============================SignUp=================================-->
+
+        <div class="box">
+            <img src="images/login.png" class="logo">
+
+            <h1>Create User</h1>
+
+            <form action="insert.php" method="POST">
+                <p>User Name</p>
+                <input type="text" name="username" placeholder="Enter User Name" required />
+                <p>Enter your Email</p>
+                <input type="text" name="email" placeholder="Enter your Email" required />
+                <p>Enter address</p>
+                <input type="text" name="address" placeholder="Enter address" required />
+                <p>Password</p>
+                <input type="password" name="password" placeholder="Password" required />
+
+                <input type="submit" value="Create">
+            </form>
+
+        </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <!--==============================footer=================================-->
+
+    <footer>
+        <p>© 2012 Real Estate</p>
+        <p>Website Template by <a target="_blank" href="http://www.templatemonster.com/">TemplateMonster.com</a></p>
+    </footer>
+    <script>Cufon.now();</script>
+</body>
+</html>
